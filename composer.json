@@ -1,0 +1,22 @@
+{
+    "name": "shen2/simple-cache",
+    "description": "Common redis cache for simple caching",
+    "keywords": ["psr", "psr-16", "cache", "simple-cache", "redis"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP-FIG",
+            "homepage": "http://www.php-fig.org/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "ext-redis": "*",
+        "psr/simple-cache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleCache\\": "src/"
+        }
+    }
+}
